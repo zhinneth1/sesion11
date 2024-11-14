@@ -1,7 +1,7 @@
-let n = Math.floor(Math.random()*10)+1;
-let adivina = prompt("Adivina un número entre 1 y 10");
-if(adivina==n){
-    document.write("Adivinastes, Felicidades");
-}else{
-    document.write("No acertaste, vuelve a intentarlo la proxima. El numero es:  ", n);
+let n = Math.floor(Math.random() * 10) + 1;
+let adivina = prompt("Adivina un numero entre 1 y 10");
+if(adivina==numero){
+    document.write("Adivinaste, felicidades");
+}else {
+    document.write("No acertaste, pero sigue intentando", n);
 }
